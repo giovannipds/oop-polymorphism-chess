@@ -36,6 +36,13 @@ public class TesteXadrez {
         torre.mover();
         rainha.mover();
         rei.mover();
+        
+        System.out.println(peao instanceof Peca);
+        System.out.println(cavalo instanceof Peca);
+        System.out.println(bispo instanceof Peca);
+        System.out.println(torre instanceof Peca);
+        System.out.println(rainha instanceof Peca);
+        System.out.println(rei instanceof Peca);
     }
     
 }
