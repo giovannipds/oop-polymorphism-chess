@@ -5,6 +5,7 @@ import pooxadrez.Cavalo;
 import pooxadrez.Peao;
 import pooxadrez.Peca;
 import pooxadrez.Rainha;
+import pooxadrez.Rei;
 import pooxadrez.Torre;
 
 /*
@@ -27,12 +28,14 @@ public class TesteXadrez {
         Peca bispo = new Bispo();
         Peca torre = new Torre();
         Peca rainha = new Rainha();
+        Peca rei = new Rei();
         
         peao.mover();
         cavalo.mover();
         bispo.mover();
         torre.mover();
         rainha.mover();
+        rei.mover();
     }
     
 }
