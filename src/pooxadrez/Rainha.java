@@ -11,6 +11,6 @@ package pooxadrez;
 public class Rainha extends Peca {
     @Override
     public void mover() {
-        System.out.println("ANDAR PRA QUALQUER LADO");
+        System.out.println("ANDAR PARA TODAS DIREÇÕES");
     }
 }
