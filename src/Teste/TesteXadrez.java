@@ -4,6 +4,7 @@ import pooxadrez.Bispo;
 import pooxadrez.Cavalo;
 import pooxadrez.Peao;
 import pooxadrez.Peca;
+import pooxadrez.Torre;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -23,10 +24,12 @@ public class TesteXadrez {
         Peca peao = new Peao();
         Peca cavalo = new Cavalo();
         Peca bispo = new Bispo();
+        Peca torre = new Torre();
         
         peao.mover();
         cavalo.mover();
         bispo.mover();
+        torre.mover();
     }
     
 }
