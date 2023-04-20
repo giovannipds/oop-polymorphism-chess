@@ -11,6 +11,6 @@ package pooxadrez;
 public class Torre extends Peca {
     @Override
     public void mover() {
-        System.out.println("ANDAR EM LINHA");
+        System.out.println("ANDAR PARA FRENTE E PARA O LADO");
     }
 }
